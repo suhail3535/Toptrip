@@ -1,0 +1,232 @@
+#masai {
+    border: 0px solid red;
+    width: 30%;
+    height: auto;
+    border-radius: 15px;
+    margin: auto;
+    /* background-color:#003b95; */
+    padding-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Nav {
+    margin: auto;
+    border: 0px solid rgb(128, 0, 111);
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin: 10px 100px;
+}
+
+.main {
+    margin: auto;
+    border: 0px solid green;
+    background-color: #003580;
+    height: 150px;
+    margin-top: 0px;
+}
+
+.Nav>button {
+    font-size: larger;
+    background-color: #003580;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.Nav>button:nth-child(2) {
+    border: 1px solid white;
+    background-color: white;
+}
+
+.Nav>button:nth-child(6) {
+    border: 1px solid white;
+    border-radius: 3px;
+    background: white;
+    color: #003580;
+}
+
+.Nav>button:nth-child(7) {
+    border: 1px solid white;
+    border-radius: 3px;
+    background: white;
+    color: #003580;
+    margin-left: 10px;
+}
+
+button:hover {
+    background: rgb(32, 100, 167);
+}
+a{
+    text-decoration: none;
+}
+
+.Nav>button:nth-child(4) {
+    border: 1px solid white;
+    color: blue;
+    background-color: white;
+}
+
+
+#masai>button>a{
+    color: white;
+}
+    
+
+h2{
+    color: white;
+   
+    margin-left: 30px;
+}
+
+
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    border: 0px solid green;
+    
+}
+
+
+form {
+    width: 300px;
+    margin:auto
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border: 1px solid green;
+    border-radius: 5px;
+   
+}
+button{
+    width: 100%;
+    height: 45px;
+    border-radius:5px ;
+    background-color: rgba(38, 0, 255, 0.733);
+    color: white;
+   
+   font-size: 20px;
+    
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+    
+    
+    }
+    .login{
+        width: 30%;
+        height: auto;
+        margin: auto;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-top: 0px;
+    }
+    .one{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 20px;
+       }
+       .two>a{
+        font-size: 20px;
+        color: white;
+       }
+    #pad{
+        padding-bottom: 30px;
+        
+    }
+    
+    a{
+        color: blue;
+        text-decoration: none;
+
+    }
+    #fottor {
+        margin: auto;
+        background-color: #003580;
+        margin-top: 15px;
+    }
+    
+    #fottor>div {
+        margin: auto;
+        height: 250px;
+        text-align: center;
+        padding: 20px 0px;
+        font-size: large;
+    }
+    
+    #fottor>div>input {
+        width: 400px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: medium;
+    
+    
+    
+    }
+    
+    #fottor>div>button {
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: medium;
+    }
+    
+    #fottor>div {
+        color: white;
+    }
+    #extra{
+        margin: auto;
+        border: 0px solid green;
+        height: 60px;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    #extra>a{
+        font-size: large;
+        color: gray;
+        font-weight: 200;
+        font-size: 30px;
+        
+    }
+    #part{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        border: 0px solid blue;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #most{
+    border: 0px solid orange;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    gap:20px;
+    height: 40px;
+    
+    
+    
+    }
+    .one>a{
+        color: white;
+    }
