@@ -1,3 +1,115 @@
+
+  
+  #container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+    width: 100%;
+    border: 0px solid green;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+#container>div>img{
+    width: 100%;
+    border: 0px solid greenyellow;
+}
+
+
+#container>div{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+#container>div>button{
+    background-color:#008009;;
+    color:white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 10px 20px;
+   }
+  
+
+.main>div>input,select{
+
+  border: 1px solid black;
+  width: 250px;
+  text-align: center;
+  font-size: larger;
+  color: green;
+  border-radius: 10px;
+  
+ 
+}
+h3{
+    color: blue;
+}
+h5{
+    color: #cc0000;
+}
+.Nav {
+    margin: auto;
+    border: 0px solid rgb(128, 0, 111);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+ margin-top: 10px;
+}
+
+.main {
+    margin: auto;
+    border: 0px solid green;
+    background-color: #003580;
+    height: 150px;
+}
+#mann>img{
+    border: 0px solid greenyellow;
+    width: 99%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+.Nav>button {
+    font-size: larger;
+    background-color: white;
+    color: green;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    border: 0px solid yellow;
+    width: 250px;
+}
+
+button>a{
+  color: green;
+}
+
+
+button:hover {
+    background: rgb(167, 32, 34);
+    color: black;
+}
+.main>img {
+    width: 200px;
+    height: 60px;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 5px;
+
+}
+a{
+    text-decoration: none;
+
+}
+
 #masai {
     border: 0px solid red;
     width: 30%;
@@ -9,65 +121,15 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.Nav {
-    margin: auto;
-    border: 0px solid rgb(128, 0, 111);
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
-    margin: 10px 100px;
-}
-
-.main {
-    margin: auto;
-    border: 0px solid green;
-    background-color: #003580;
-    height: 150px;
-    margin-top: 0px;
-}
-
-.Nav>button {
-    font-size: larger;
-    background-color: #003580;
-    color: white;
-    border-radius: 30px;
-    border: none;
-    height: 50px;
-    border: 1px solid white;
-}
-
-.Nav>button:nth-child(2) {
-    border: 1px solid white;
-    background-color: white;
-}
-
-.Nav>button:nth-child(6) {
-    border: 1px solid white;
-    border-radius: 30px;
-    background: white;
-    color: #003580;
-}
-
-.Nav>button:nth-child(7) {
-    border: 1px solid white;
-    border-radius: 30px;
-    background: white;
-    color: #003580;
-    margin-left: 10px;
-}
 
 button:hover {
-    background: rgb(32, 100, 167);
+    background: orchid;
+    color: greenyellow;
 }
 a{
     text-decoration: none;
 }
 
-.Nav>button:nth-child(4) {
-    border: 1px solid white;
-    color: blue;
-    background-color: white;
-}
 
 
 #masai>button>a{
@@ -104,7 +166,7 @@ form label {
 }
 
 form input {
-    width: 92%;
+    width: 90%;
     padding: 10px;
     border: none;
     border: 1px solid green;
@@ -113,11 +175,10 @@ form input {
 }
 button{
     width: 100%;
-    height: 40px;
+    height: 45px;
     border-radius:5px ;
     background-color: rgba(38, 0, 255, 0.733);
     color: white;
-    border: 0px solid red;
    
    font-size: 20px;
     
@@ -169,6 +230,7 @@ p{
         text-align: center;
         padding: 20px 0px;
         font-size: large;
+        color: white;
     }
     
     #fottor>div>input {
@@ -188,9 +250,7 @@ p{
         font-size: medium;
     }
     
-    #fottor>div {
-        color: white;
-    }
+    
     #extra{
         margin: auto;
         border: 0px solid green;
@@ -230,40 +290,5 @@ p{
     
     }
     .one>a{
-        color: white;
-    }
-
-    #fottor {
-        margin: auto;
-        background-color: #003580;
-        margin-top: 15px;
-    }
-    
-    #fottor>div {
-        margin: auto;
-        height: 250px;
-        text-align: center;
-        padding: 20px 0px;
-        font-size: large;
-    }
-    
-    #fottor>div>input {
-        width: 400px;
-        height: 50px;
-        border-radius: 5px;
-        font-size: medium;
-    
-    
-    
-    }
-    
-    #fottor>div>button {
-        width: 150px;
-        height: 50px;
-        border-radius: 5px;
-        font-size: medium;
-    }
-    
-    #fottor>div {
         color: white;
     }

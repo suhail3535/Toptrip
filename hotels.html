@@ -1,67 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="register&sinin.css">
+    <link rel="stylesheet" href="hotel.css">
     <title>Document</title>
+  
 </head>
-
 <body>
-    <a href="register.html"></a>
-    <a href="signin.html"></a>
-   
-
     <div class="main">
-     
-        <h2>TopTrip.com</h2>  
-       
-      
-         <div class="Nav">
-            <button> Stays</button>
-            <button> <a href="index.html"> Home Page</a></button>
-            <button>Flights</button>
-            <button> <a href="hotels.html"> Hotels</a></button>
-            <button>Car Rentals</button>
+        <img src="my pro.png" alt="">
+        <!-- <h2>TopTrip.com</h2> -->
+        <div class="Nav">
+            <input oninput="search()" type="text" placeholder="Search Hotels">
+            <select onchange="justSort()">
+
+                <option value="high to low">high to low</option>
+                <option value="low to high">low to high </option>
+            </select>
+          
+          
+            <button>  <a href="index.html">Home Page</a></button>
+            <button><a href="booking.html">My Bookings</a></button>
+           <!-- <button> <a href="register.html">Register</a> </button> 
+            <button>  <a href="signin.html">SignIn</a> </button> -->
             
-            <button>  <a href="register.html"> Register</a> </button>
-            <button>Login</button>
         </div>
     </div>
 
-    
-
-    
-    <div class="login">
-        <h1>Login</h1>
-        <form>
-
-            <label>Email</label>
-            <input type="text" placeholder="Enter your email" id="email">
-          
-            <label>Password</label>
-            <input type="text" placeholder="Enter your password" id="password">
-            <button class="one">Sign In</button>
-        
-            <button class="two"  > <a href="index.html">Continue With Google</a></button>
-            <P id="pad"> Don't have an account?<a href="register.html"> Rejister Here</a></P>
-
- </form>
- </div>
 
 
- <div id="fottor">
-    <div id="final">
-        <h1>Save time, save money!</h1>
-        <p>Sign up and we'll send the best deals to you</p>
-        <input type="text" placeholder="Your Email"> <button>Subscribe</button>
 
-    </div>
+    <div id="container"></div>
+
+
+    <div id="fottor">
+        <div id="final">
+            <h1>Save time, save money!</h1>
+            <p>Sign up and we'll send the best deals to you</p>
+            <input type="text" placeholder="Your Email"> <button>Subscribe</button>
+
+        </div>
 
 </div>
-
 
 <div id="extra"> <a href="signin.html">Extranet Login</a>   </div>
 <div id="part">  Booking.com is part of Booking Holdings inc., the world leader is online travel and related services </div>
@@ -75,6 +57,14 @@
 </div>
 
 
+
 </body>
-<script src="login.js"></script>
 </html>
+<script src="hotel.js"></script>
+
+
+
+
+
+
+    
