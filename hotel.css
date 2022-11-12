@@ -1,0 +1,193 @@
+
+
+  
+  #container{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      margin: auto;
+      width: 100%;
+      border: 0px solid green;
+      gap: 10px;
+      margin-top: 10px;
+  
+  }
+  #container>div>img{
+      width: 100%;
+      border: 0px solid greenyellow;
+  }
+
+
+  #container>div{
+      margin: 10px;
+      padding: 10px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      text-align: center;
+      border-radius: 5px;
+  }
+  #container>div>button{
+      background-color:#008009;;
+      color:white;
+      border: none;
+      width: 150px;
+      height: 40px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      
+  }
+
+  .main>div>input,select{
+ 
+    border: 1px solid black;
+    width: 350px;
+    text-align: center;
+    font-size: larger;
+    color: blue;
+    border-radius: 10px;
+    
+   
+  }
+  h3{
+      color: blue;
+  }
+  h5{
+      color: #cc0000;
+  }
+  .Nav {
+      margin: auto;
+      border: 0px solid rgb(128, 0, 111);
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+   margin-top: 10px;
+  }
+  
+  .main {
+      margin: auto;
+      border: 0px solid green;
+      background-color: #003580;
+      height: 150px;
+  }
+  
+  .Nav>button {
+      font-size: larger;
+      background-color: white;
+      color: blue;
+      border-radius: 30px;
+      border: none;
+      height: 50px;
+      border: 0px solid yellow;
+      width: 180px;
+  }
+
+  button>a{
+    color: blue;
+  }
+  
+  
+  
+
+  
+  
+  
+  button:hover {
+      background: rgb(167, 32, 34);
+      color: black;
+  }
+  .main>img {
+      width: 200px;
+      height: 60px;
+      border: 1px solid;
+      margin-top: 10px;
+      margin-left: 100px;
+      border-radius: 5px;
+  
+  }
+  a{
+      text-decoration: none;
+  
+  }
+  
+  #fottor {
+    margin: auto;
+    background-color: #003580;
+    margin-top: 15px;
+}
+
+#fottor>div {
+    margin: auto;
+    height: 250px;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: large;
+}
+
+#fottor>div>input {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: medium;
+
+
+
+}
+
+#fottor>div>button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+#fottor>div {
+    color: white;
+}
+
+#offer {
+    border: 0px solid pink;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#offer>img {
+    width: 100%;
+    height: 300px;
+}
+#extra{
+    margin: auto;
+    border: 0px solid green;
+    height: 60px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+#extra>a{
+    font-size: large;
+    color: gray;
+    font-weight: 200;
+    font-size: 30px;
+    
+}
+#part{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: 0px solid blue;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#most{
+border: 0px solid orange;
+width: 90%;
+margin: auto;
+display: flex;
+justify-content: space-evenly;
+margin-top: 40px;
+margin-bottom: 100px;
+gap:20px;
+height: 40px;
+
+
+
+}

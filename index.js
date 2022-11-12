@@ -1,5 +1,7 @@
 
 
+
+
 let prev = document.getElementById("prev");
 let next = document.getElementById("next");
 let arr = ["imagees/img1.jpg", "imagees/img2.jpg", "imagees/img3.jpg", "imagees/img4.jpg", "imagees/img5.jpg", "imagees/img6.jpg"]

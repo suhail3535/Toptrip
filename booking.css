@@ -1,0 +1,113 @@
+
+
+
+
+  
+  #container{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      margin: auto;
+      width: 100%;
+      border: 0px solid green;
+      gap: 10px;
+      margin-top: 10px;
+  
+  }
+  #container>div>img{
+      width: 100%;
+      border: 0px solid greenyellow;
+  }
+
+
+  #container>div{
+      margin: 10px;
+      padding: 10px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      text-align: center;
+      border-radius: 5px;
+  }
+  #container>div>button{
+      background-color:#008009;;
+      color:white;
+      border: none;
+      width: 100px;
+      height: 40px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      margin: 10px 20px;
+     }
+    
+  
+  .main>div>input,select{
+ 
+    border: 1px solid black;
+    width: 250px;
+    text-align: center;
+    font-size: larger;
+    color: blue;
+    border-radius: 10px;
+    
+   
+  }
+  h3{
+      color: blue;
+  }
+  h5{
+      color: #cc0000;
+  }
+  .Nav {
+      margin: auto;
+      border: 0px solid rgb(128, 0, 111);
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+   margin-top: 10px;
+  }
+  
+  .main {
+      margin: auto;
+      border: 0px solid green;
+      background-color: #003580;
+      height: 150px;
+  }
+  
+  .Nav>button {
+      font-size: larger;
+      background-color: white;
+      color: blue;
+      border-radius: 30px;
+      border: none;
+      height: 50px;
+      border: 0px solid yellow;
+      width: 180px;
+  }
+
+  button>a{
+    color: blue;
+  }
+  
+  
+  
+
+  
+  
+  
+  button:hover {
+      background: rgb(167, 32, 34);
+      color: black;
+  }
+  .main>img {
+      width: 200px;
+      height: 60px;
+      border: 1px solid;
+      margin-top: 10px;
+      margin-left: 100px;
+      border-radius: 5px;
+  
+  }
+  a{
+      text-decoration: none;
+  
+  }
+  
+      
