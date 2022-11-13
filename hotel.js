@@ -119,14 +119,50 @@ let data=[
         "Ratting":"4.8",
         "price": 3500,
         "id": "12"
+    },
+   
+    {
+        "createdAt": "2022-11-11T02:06:49.054Z",
+        "title": "Hotel Surya palace ,Mumbai",
+        "avatar": "https://cf.bstatic.com/xdata/images/hotel/square600/347286490.webp?k=3fee36965635be5b2bf83d5ae060fd3c27a35a5404a433510037b4b32614ae6b&o=&s=1",
+        "categary": "Standard Double or Twin Room",
+        "price": 3500,
+        "Ratting":"4.7",
+        "id": "9"
+    },
+
+    {
+        "createdAt": "2022-11-11T02:06:49.054Z",
+        "title": "Hotel Royals blue,Pune",
+        "avatar": "https://cf.bstatic.com/xdata/images/hotel/square600/289858951.webp?k=4f7492c7615553317fbc87055f65bb1b9a8ee1960533a2ae4d09232ec84dc120&o=&s=1",
+        "categary": "Standard Double or Twin Room",
+        "price": 4000,
+        "Ratting":"4.6",
+        "id": "10"
+    },
+
+    {
+        "createdAt": "2022-11-11T02:06:49.054Z",
+        "title": " Hotel Plaza,Lucknow",
+        "avatar": "https://cf.bstatic.com/xdata/images/hotel/square600/313898581.webp?k=001ada3d14a92b11dc591dd62cb2a2165014b6fe4b91409b913d9e52b4368cbd&o=&s=1",
+        "categary": "Classic Triple Room",
+        "price": 4500,
+        "Ratting":"4.9",
+        "id": "11"
+    },
+
+    {
+        "createdAt": "2022-11-11T02:06:49.054Z",
+        "title": " The Tourist palace Goa",
+        "avatar": "https://cf.bstatic.com/xdata/images/hotel/square600/347970946.webp?k=573d587969cd5b8250b0a5b48f1dbf70cd47b867790ec14e082ad4969658e19c&o=&s=1",
+        "categary": "Deluxe Room",
+        "Ratting":"4.8",
+        "price": 5500,
+        "id": "12"
     }
    
-   
 ]
-    
-
-
-function displayTable(data){
+    function displayTable(data){
     document.querySelector("#container").innerHTML="";
     data.forEach(function(element){
     let div=document.createElement("div")
@@ -151,7 +187,7 @@ let count=0
             count++
             if (count <=1) {
                 addData("myBook", element)
-                alert("you choice added in my booking")
+                alert("Your Choice Added,Please click on My Booking")
                 // window.location.href = "booking.html";
             }
             else {
