@@ -19,7 +19,7 @@ let obj={
     } else {
         
         localStorage.setItem("masai", JSON.stringify(Bag))
-        alert("Welcome you are successfully Register, Please click on signIn")
+        alert("Welcome you are successfully Register 🎊🎊")
         window.location.href = "signin.html";
 
 

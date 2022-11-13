@@ -21,7 +21,7 @@ function myFun(event) {
 
         }
         if (flag == true) {
-            alert("Welcome To Top Trip ")
+            alert("Welcome To Top Trip 🎉")
             window.location.href = "index.html";
         } else {
             alert("please fill correct details")

@@ -1,7 +1,7 @@
 
-let bookingData = JSON.parse(localStorage.getItem("myBook")) || [];
+let bookingData = JSON.parse(localStorage.getItem("myBook"))||[];
 function displayTable(data){
-    document.querySelector("#container").innerHTML="";
+    document.querySelector("#container").innerHTML=null;
     data.forEach(function(element,index){
     let div=document.createElement("div")
     
@@ -22,22 +22,28 @@ function displayTable(data){
         btn.innerText = "Pay Now"
     
         btn.addEventListener("click", function () {
-        alert("Please wait we are redirecting you to payment page ")
+        alert("Please wait we are redirecting you to payment page 💵 ")
         window.location.href = "payment.html";
         })
         let del=document.createElement("button")
         del.innerText = "Delete"
         del.addEventListener("click", function () {
-           deleteData(bookingData,index)
-         alert("Are you sure, you want to delete")
+            deleteData(bookingData, index)
+            price(bookingData)
         })
-
+ 
     div.append(image,title,cat,price,rat,btn,del);
     document.querySelector("#container").append(div);
-    
-    
     })
 }
+
+displayTable(bookingData)
+
+function price(data) {
+    let z = data.reduce((acc, el) => acc + el.price, 0);
+    document.querySelector("span").innerText = z;
+}
+price(bookingData)
 
 function search() {
     let p = document.querySelector("input").value
@@ -53,7 +59,7 @@ function search() {
 function deleteData(data,index) {
     data.splice(index, 1)
     localStorage.setItem("myBook",JSON.stringify(data));
-    displayTable(data);
+displayTable(data)
   }
 
 function justSort() {
@@ -71,6 +77,6 @@ function justSort() {
 
 
 
-displayTable(bookingData)
+
 
 
